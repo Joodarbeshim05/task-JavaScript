@@ -77,6 +77,9 @@
 // let result = c + d;
 // console.log(result);
 
+let year = 2024;
+console.log(Math.ceil(year / 100));
+
 // console.log("Сумма:", a + b);         // Выводит сумму
 // console.log("Разность:", a - b);      // Выводит разность
 // console.log("Произведение:", a * b);  // Выводит произведение
