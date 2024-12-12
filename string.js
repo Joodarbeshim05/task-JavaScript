@@ -1,27 +1,29 @@
 // string - строка
-// string - "abc" 'abc' `abc`
+// string - "welcome" - '12345' - `Joodar05`
 
-// string - свойство их 2
+// string - свойства 2
 // length
-// index - []
+// []
 
-// let str = "welcome";
-// let str = "12345678901234567890";
+// let str = "welcome to motion web";
+// console.log(str[str.length - 1]);
+// let str = "1234567890987654321";
+// console.log(str[Math.floor(str.length / 2)]);
+
 // let str = "Bishkek";
-// let s = "city";
-// console.log(str); <|> просто строку покажет
-// console.log(str[3]); <|> покажет 3 индекс
-// console.log(str[str.length - 1]); <|> через эту можно взять последний индекс
-// console.log(str[Math.floor(str.length / 2)]) <|> покажет самый центр;
-// console.log(str.charAt(0)); <|> через номер можно взять строку
-// console.log(str.indexOf("s")); <|> через букву можем узнать в каком индексе стоит
+// console.log(str.charAt(1));
+// console.log(str.indexOf("k"));
 // console.log(str.lastIndexOf("k"));
-// console.log(str.repeat(500)); <|> повторяет
-// console.log(str.toUpperCase()); <|> сделает всех большим шрифтом
-// console.log(str.toLowerCase()); <|> сделает всех маленьким шрифтом
-// console.log(str.includes("")); <|> boolean
-// console.log(str.replace("h", "d")); <|> меняет букву
+// console.log(str.repeat());
+// console.log(str.toUpperCase());
+// console.log(str.toLowerCase());
+// console.log(str.includes(""));
+// console.log(str.replace("k", "d"));
 // console.log(str.replaceAll("k", "d"));
-// console.log(str.trim()); <|> удаляет пробелов
-// console.log(str.concat(s));
-// console.log(str.slice(4, 7));
+// console.log(str.trim());
+// console.log(str.trimStart());
+// console.log(str.trimEnd());
+// console.log(str.concat());
+// console.log(str.slice(0, 3));
+// console.log(str.substr(4, 3));
+// console.log(str.substring(4, 7));
