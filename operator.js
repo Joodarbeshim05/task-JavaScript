@@ -1,4 +1,3 @@
-//
 // №3
 // создайте логику, которая возвращает день недели в соответствии с введенным числом:
 
@@ -11,39 +10,33 @@
 // 7 возвращается "Sunday"
 // В противном случае возвращается "Wrong, please enter a number between 1 and 7"
 
-// function task (get) {
-//     if (get === 1 ) {
-//         console.log("Monday");
-//     } else  if  (get === 2) {
-//         console.log("Tuesday");
-
-//     } else if (get === 3) {
-//         console.log("Wednesday");
-
-//     } else if (get === 4 ) {
-//         console.log("Thursday");
-
-//     } else if (get === 5) {
-//         console.log("Friday");
-
-//     } else if (get === 6) {
-//         console.log("Saturday");
-
-//     } else if (get === 7) {
-//         console.log("Sunday");
-
-//     }
+// function task(get) {
+//   if (get === 1) {
+//     console.log("Monday");
+//   } else if (get === 2) {
+//     console.log("Tuesday");
+//   } else if (get === 3) {
+//     console.log("Wednesday");
+//   } else if (get === 4) {
+//     console.log("Thursday");
+//   } else if (get === 5) {
+//     console.log("Friday");
+//   } else if (get === 6) {
+//     console.log("Saturday");
+//   } else if (get === 7) {
+//     console.log("Sunday");
+//   }
 // }
-// console.log(task(1));
+// console.log(task(3));
 
 // let name = "ringo"
 // если первая буква name равно "R" то выведите в консоль "name играет в Банжо",
 // иначе "name не играет в Банжо"
-// let name = "ringo"
-// if(name !== "r"){
-//     console.log("name играет в Банжо");
+// let name = "ringo";
+// if (name !== "r") {
+//   console.log("name играет в Банжо");
 // } else {
-//     console.log("name не играет в Банжо");
+//   console.log("name не играет в Банжо");
 // }
 
 // let greet = "Hello"
