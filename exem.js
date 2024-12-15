@@ -17,8 +17,11 @@
 // [1, 2, 1, 1, 3, 2] -> [1, 2, 3]
 
 // let arr = [1, 2, 1, 1, 3, 2];
-
-// let arr = [1, 2, 1, 1, 3, 2];
+// console.log(
+//   arr.filter((el, idx) => {
+//     return arr.indexOf(el) === idx;
+//   })
+// );
 
 // Дан массив с объектами: [
 //     {mark: 'Wolksvagen', year: 2005, price: 8000, sale: 0},
